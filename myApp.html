@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	 <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/sfavicon.ico" />
+	 <title>Swift Messenger</title>
+	 <meta name="description" content="Swift Messenger">
+   <!--offline-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+   <!--online-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+	<style>
+	body{
+		padding-top: 40px;
+	}
+
+  .btn-primary {
+    background:rgb(66,66,69);
+    color: #ffffff;
+    border-color: rgb(66,66,69);
+  }
+
+  .navbar-right {
+    border-radius: ;
+    background: rgb(242, 242, 242);
+    color: black;
+  }
+
+  .btn-primary:hover {
+    border-radius: ;
+    border-color: rgb(66, 66, 69);
+    background: rgb(242, 242, 242);
+    color: rgb(66, 66, 69);
+    border-left: rgb(242, 242, 242);
+    border-right: rgb(242, 242, 242);
+  }
+
+  .navbar-right:hover {
+    border-radius: 0px;
+    background: rgb(97,97,97);
+    color: white;
+    border-color: white; 
+  }
+
+  .swiftlogo, .navbar-brand {
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom: 35px;
+  }
+
+  .swiftlogo {
+    margin-right: 15px;
+  }
+
+.dropdown-toggle, .dropdown-toggle:active, .dropdown-toggle:link, .dropdown-toggle:visited {
+  text-decoration: none;
+  color: rgb(97,97,97);
+  float: right;
+  margin-left: 0px;
+}
+
+.dropdown-toggle:hover {
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-left: 0px;  
+}
+
+.contactus {
+  margin-right: 400px;
+}
+	</style>
+
+<body data-spy="scroll" data-target="#my-navbar">
+
+  <!-- Navbar -->
+  	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+  		<div class="container">
+  			<div class="navbar-header">
+  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  				</button>
+
+  				<a href="" class="navbar-brand">
+            <div class="swiftlogo" style="width:20px">
+              <img src="dimages/swiftlogo.png" alt="image" style="max-width:100%;"/>    
+            </div>Swift
+          </a>
+  			</div><!-- Navbar Header-->
+  			<div class="collapse navbar-collapse" id="navbar-collapse">
+  			<a href="https://play.google.com/store?hl=en" class="btn btn-primary navbar-btn navbar-right">Download App&nbsp;&nbsp;
+          <span class="glyphicon glyphicon-save"></span>
+        </a>
+  				<ul class="nav navbar-nav">
+  					<li><a href="#feedback">Feedback</a> 
+  					<li><a href="#gallery">Gallery</a> 
+  					<li><a href="#platform">Platform</a> 
+  					<li><a href="#faq">Faq</a> 
+  					<li><a href="#contact" class="contactus">Contact Us</a> 
+  				</ul>
+              <li class="dropdown navbar-brand">
+              <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                Akshay
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.facebook.com/akshaysaini0007/about" target="new">Profile</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="login.html">Logout</a></li>
+              </ul>
+            </li>
+  			</div>
+  		</div><!-- End Container-->
+    </nav><!-- End navbar -->
+
+  	<!-- jumbotron-->
+
+  	<div class="jumbotron">
+  		<div class="container text-center">
+  			<h1>Swift Messenger</h1>
+  			<p>A new direction to the Real-Time Messaging</p>
+  			<div class="btn-group">
+  				<a href="" class="btn btn-lg btn-primary">Download App</a>
+  				<a href="" class="btn btn-lg btn-default">Visit store</a>
+  				<a href="" class="btn btn-lg btn-primary">Spread the word</a>
+  			</div>
+  		</div><!-- End container -->
+    </br><p style="text-align:center">Swift allows you to engage with people in a truly unique way, for free!</br>
+          Swift is the closest you will get to having a verbal conversation in a messaging app.</br> 
+          Everything happens in real time - texting, reading, interrupting, and taking back the last thing you said (said what ... ?).</br>
+          Share pictures and personal stories on the first mobile True Real Time platform.</br>
+        </p>
+  	</div><!-- End jumbotron-->
+
+  	<!-- Feedback-->
+  	<div class="container">
+  		<section>
+  			<div class="page-header" id="feedback">
+  				<h2>Feedback.<small> Check out the Awesome Feedback</small></h2>
+  			</div>
+
+  			<div class="row">
+  				<div class="col-md-4">
+  					<blockquote>
+  						<p>Love it This is the best app yet... I would say better than MESSENGER and that's good. I would recommend to everyone whatever lifestyle, age. It's awsome try it out for yourself... its worth it</p>
+  						<footer>Rebecca Chivers</footer>
+  					</blockquote>
+  				</div>
+  				<div class="col-md-4">
+  					<blockquote>
+  						<p>Ahhh Best app ever, however it can make me a bit wary. Definitely taught me to bite my tongue!</p>
+  						<footer>Courtney Robinson</footer>
+  					</blockquote>
+  				</div>
+  				<div class="col-md-4">
+  					<blockquote>
+  						<p>It's the coolest thing ever! I would give it five stars but last night, for some random reason, it said it couldn't connect to the server or something, but I had perfect signal. Other than that, I love the app.</p>
+  						<footer>Jazzmon Worthy</footer>
+  					</blockquote>
+  				</div>
+  			</div><!-- End row -->
+  		</section>
+  	</div><!--End Container-->
+
+<!-- call to action -->
+	<section>
+		<div class="well">
+			<div class="container text-center">
+				<h3>Subscribe for more free stuff</h3>
+				<p>Enter your name and email</p>
+
+				<form action="" class="form-inline">
+					<div class="form-group">
+						<label for="subscription">Subscribe</label>
+						<input type="text" class="form-control" id="subscription" placeholder="Your name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input type="text" class="form-control" id="email" placeholder="Enter your Email">
+					</div>
+					<button type="submit" class="btn btn-default">Subscribe</button>
+					<hr>
+				</form>
+
+
+			</div><!-- end Container-->
+
+		</div><!-- end well-->
+	</section><!-- Call to action -->
+
+<!-- Gallery --> 
+	<div class="container-fluid">
+		<section>
+			<div class="page-header" id="gallery">
+  				<h2>Gallery.<small> Check out the some features of the Application</small></h2>
+  			</div>
+
+  			<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+  				<ol class="carousel-indicators">
+  					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+  					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+  					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+  					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+  				</ol>
+  				<div class="carousel-inner">
+  					<div class="item active">
+  						<img src="dimages/swiftchat.jpg" alt="swiftchat">
+  						<div class="carousel-caption">
+  							<h3>Messaging</h3>
+  							<p>Real Time Conversation</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="dimages/swiftgroup.jpg" alt="swiftgroup">
+  						<div class="carousel-caption">
+  							<h3>Groups</h3>
+  							<p>Fun with Friends in Groups</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="dimages/swiftcall.jpg" alt="swiftcall">
+  						<div class="carousel-caption">
+  							<h3>Calling</h3>
+  							<p>Call your Friends for Free</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="dimages/chatui.png" alt="swiftui">
+  						<div class="carousel-caption">
+  							<h3>Classic Ui</h3>
+  							<p>App provides a good Interface</p>
+  						</div>
+  					</div>
+
+  				</div><!-- End Carousel inner -->
+  				<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+  					<span class="glyphicon glyphicon-chevron-left"></span>
+  				</a>
+  				<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+  					<span class="glyphicon glyphicon-chevron-right"></span>
+  				</a>
+  			</div><!-- End Carousel -->
+
+		</section>
+	</div>
+
+<!-- features -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="platform">
+  				<h2>Platform.<small> This app supports every platform today in market.</small></h2>
+  			</div><!-- End Page Header -->
+
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>Android</h3>
+  					<p>Android is the operating system that powers more than one billion smartphones and tablets. Since these devices make our lives so sweet, each Android version is named after a dessert. Whether it's getting directions or even slicing virtual fruit, each Android release makes something new possible.</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="dimages/androidimage.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div><!-- End row -->
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>iOS</h3>
+  					<p>iOS (originally iPhone OS) is a mobile operating system developed by Apple Inc. and distributed exclusively for Apple hardware. It is the operating system that presently powers many of the company's mobile devices, including the iPhone, iPad, and iPod touch.</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="dimages/iosimage.png" class="img-responsive" alt="image">
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>Windows</h3>
+  					<p>Microsoft Windows (or simply Windows) is a metafamily of graphical operating systems developed, marketed, and sold by Microsoft. It consists of several families of operating systems, each of which cater to a certain sector of the computing industry. </p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="dimages/lumiaimage.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div>
+        <div class="row">
+          <div class="col-sm-8">
+            <h3>Blackberry</h3>
+            <p>BlackBerry devices can record video, take photos, play music and also provide functions such as Web-browsing, email messaging, instant messaging, and the multi-platform BlackBerry Messenger service. The consumer BlackBerry Internet Service is available in 91 countries worldwide on over 500 mobile service operators using various mobile technologies</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="dimages/blackberryimage.png" class="img-responsive" alt="image">
+          </div>
+        </div>
+  			<hr>
+
+  			<div class="row">
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-ok"></span>
+  							<h4>Verified and Secured</h4>
+  							<p>Protecting the user privacy and other identifiable information is of paramount importance to Swift. We will always make efforts to guard your privacy against unlicensed entry, and protect the information you have chosen to provide us with.</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-star"></span>
+  							<h4>Best Rated</h4>
+  							<p>Swift Messenger is a first of its kind True Real Time communications app. It has been best rated in countries like india, Italy, Australia, China, New Zealand, Ireland and Canada.</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-plane"></span>
+  							<h4>International Users</h4>
+  							<p>Although we have multiple servers located outside the United States through which you are communicating, we may transfer and process the bulk of your information in United States (or in any other country where we operate).</p>
+  						</div>
+  					</div>
+  				</div>
+  			</div><!-- end row -->
+
+		</section>
+	</div><!-- End Container -->
+
+<!-- Faq -->
+
+    <div class="container">
+      <section>
+        <div class="page-header" id="faq">
+          <h2>FAQ.<small> Engaging with consumers.</small></h2>
+        </div><!-- End Page Header -->
+
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+                  What is Swift Messenger?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-1" class="panel-collapse collapse in">
+                <div class="panel-body"></br>
+                  Swift app allows people to communicate seamlessly with one another, through a mobile phone. Unlike the current methods of text based communication, that happen in turn-based fashion, our app allows people to chat the way they would in person - in real time, coming in at any point in the conversation and without waiting for the other person to hit "send".
+                  </br></br>
+                  This method, although fresh, has seen many applications in the past, and is well suited for the mobile platform.
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+                  How does it work?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-2" class="panel-collapse collapse">
+                <div class="panel-body"></br>
+                 Two people can now engage in a chat through texting as customary, however the noticeable difference is seeing the other person transmit their thoughts as they happen. There is no delay, and whenever you feel like saying something you can.
+                 </br></br>
+                  This is what we call "swifting in" - the ability to interrupt, interject, comment, and the like. Your friend will see it immediately, and is able to further continue his/her "speech", or address what you just said.
+                 </br></br>
+                  While you are texting inside a bubble, without breaking, you are allowed to backtrack and jump forward at will. Also you may delete the whole text alltogether, gone from both devices in true real time fashion.
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+                 Do both me and my friend need this app? Can it work as a plugin?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-3" class="panel-collapse collapse">
+                <div class="panel-body"></br>
+                 Yes, you both have to have Swift Messenger installed. As virtually every other networking app, the technology works when 2 people have the same thing connecting them.
+               </br></br>
+                  No, just because you have Swift installed, doesn't mean other people will see what you type, in other texting apps. Only when 2 people use Swift inside chat, talking, both present, then it's real time.
+                </br></br>
+                  No, this is not a plugin - it's a standalone product that uses it's own technology to facilitate the service.
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+
+           <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-4" data-toggle="collapse" data-parent="#accordion">
+                I accidentally deleted the bot / I never had a bot?
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-4" class="panel-collapse collapse">
+                <div class="panel-body"></br>
+                  Please manually add bot@swift.com
+                  </br></br>
+                  To manually add a friend, click on top left tab (make sure it's the guy/girl icon). Then click on bottom left "+" icon, and enter the email above.
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+        </div><!-- End panel group -->
+
+      </section>
+    </div><!-- End container -->
+
+
+<!-- Contact -->
+
+  <div class="container">
+    <section>
+      <div class="page-header" id="contact">
+          <h2>Contact Us.<small> Contact us for more.</small></h2>
+        </div><!-- End Page Header -->
+
+        <div class="row">
+          <div class="col-lg-4">
+            <p>Send us a message, or contact us from the address below</p>
+            <address>
+              <strong>Swift Messenger Pvt Ltd.</strong></br>
+              209, Boys Hostel </br>
+              Chandigarh University</br>
+              Mohali , Punjab</br>
+              P: +91 9781197417
+            </address>
+          </div>
+          
+          <div class="col-lg-8">
+            <form action="" class="form-horizontal">
+              <div class="form-group">
+                <label for="user-name" class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="user-name" placeholder="Enter you name">
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="user-email" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="user-email" placeholder="Enter you Email Address">
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="user-url" class="col-lg-2 control-label">Your Website</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="user-email" placeholder="If you have Any.">
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="user-message" class="col-lg-2 control-label">Any Message</label>
+                <div class="col-lg-10">
+                  <textarea name="user-message" id="user-message" class="form-control" 
+                  cols="20" rows="10" placeholder="Enter your Message"></textarea>
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+
+             
+
+            </form>
+          </div>
+        </div><!-- End the row -->
+
+    </section>
+  </div>
+
+<!-- Footer -->
+
+    <footer>
+      <hr>
+        <div class="container text-center">
+        <h3>Subscribe for more free stuff</h3>
+        <p>Enter your name and email</p>
+
+        <form action="" class="form-inline">
+          <div class="form-group">
+            <label for="subscription">Subscribe</label>
+            <input type="text" class="form-control" id="subscription" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter your Email">
+          </div>
+          <button type="submit" class="btn btn-default">Subscribe</button>
+          
+        </form>
+
+        <hr>
+        <ul class="list-inline">
+          <li><a href="http://www.twitter.com/@akshaysaini7">Twitter</a></li>
+          <li><a href="http://www.facebook.com/akshaysaini0007">Facebook</a></li>
+          <li><a href="http://www.youtube.com/akshaysaini7">YouTube</a></li>
+          <li><a href="#">More From Us</a></li>
+        </ul>
+
+        <p>&copy; Copyright @ 2015</p>
+
+      </div><!-- end Container-->
+    </footer>
+</body>	
+</html>
